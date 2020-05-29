@@ -1,0 +1,11 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "this is a intro on to connect mysql with js",
+  "main": "java.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince",
+  "license": "ISC"
+}

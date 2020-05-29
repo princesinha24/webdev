@@ -52,7 +52,7 @@ function checkAnswer(currentLevel){
           over.play();
           startover();
     }
-    else{
+    else if(start==true){
         point++;
         $("#point").html("Point:"+point);
         if(point>hig){
@@ -66,16 +66,23 @@ function checkAnswer(currentLevel){
           },1000);
     }
 }
+$("#help").on("click",function(){
+    if(point>=3){
+        point-=3;
+        $("#point").html("Point:"+point);
+        window.alert(gamePattern[currentLevel]);
+    }
+});
 function startover(){
     start=false;
     gamePattern=[];
     level=0;
     point=0;
-    $("#point").html("Point:"+point);
 
 }
 $(document).on("keydown",function(){
     if(start==false){
+        $("#point").html("Point:"+point);
         nextsequence();
     }
 });
