@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#fav{
+    float: left;
+}
+#sea{
+    float: right;
+}
+
+.tab{
+    clear: both;
+    margin: 50px auto;
+    height: 300px;
+    text-align: center;
+}
+table{
+    margin: 0px auto;
+}
