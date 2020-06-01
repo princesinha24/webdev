@@ -8,7 +8,6 @@ body{
     background-image: url(music1.jpg);
     background-position: center;
     background-size: cover;
-    width: 1000px; 
     opacity: 2.0;
 }
 #fav{
